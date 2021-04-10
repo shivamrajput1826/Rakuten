@@ -1,0 +1,7 @@
+﻿Instructions to use the model for Prediction.
+1. Run the EYEnovation_Prediction.ipynb on Google Colab.
+2. Use ‘Book1.csv’ provided as the dataset for training the DecisionTree Classifier.
+3. After running the last cell, click on the ngrok URL. This link will expire as soon as we terminate the cell process and if we don’t, Google Colab terminates it after some time.
+4. After clicking the link, navigate to the endpoint of the URL and write ‘/docs’(without quotes).
+5. Click on ‘Get Disease Category’ and select ‘Try it Out’.
+6. Click on ‘Execute’ button and the prediction of the model is displayed in the ‘Response Body’ window.
